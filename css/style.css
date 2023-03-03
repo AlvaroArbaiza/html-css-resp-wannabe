@@ -134,7 +134,7 @@ img {
     .steps .col,
     .why-us .col-left,
     .why-us .col-right {
-        width: 100vw;
+        width: 100%;
         margin: 50px 0;
     }
     .why-us {
@@ -157,6 +157,13 @@ img {
  /* Tablet responsive - fino a 768px */
  @media screen and (max-width: 768px) {
     .container {
-        width: 100vw;
+        width: 100%;
+    }
+ }
+
+ /* Bonus - browser responsive, da 768px a 1160px */
+ @media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
     }
  }
