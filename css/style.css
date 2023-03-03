@@ -161,9 +161,9 @@ img {
     }
  }
 
- /* Bonus - browser responsive, da 768px a 1160px */
- @media screen and (max-width: 1160px) {
+ /* Bonus - browser responsive, da 768px in poi */
+ @media screen and (min-width: 768px) {
     .container {
-        width: 100%;
+        width: 80%;
     }
  }
